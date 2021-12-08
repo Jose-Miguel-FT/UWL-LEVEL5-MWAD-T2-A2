@@ -3,17 +3,17 @@ import React from 'react';
 function MedicalTreatment(props) {
   return (
     <div>
-      Treat ID:         {props.medicalTreatment.treatId}
+      Treat ID: {props.medicalTreatment.treatId}
       <br />
-      Treat Course ID:  {props.medicalTreatment.treatCourseId}
+      Treat Course ID: {props.medicalTreatment.treatCourseId}
       <br />
-      Type:             {props.medicalTreatment.type}
+      Type: {props.medicalTreatment.type}
       <br />
-      Category:         {props.medicalTreatment.category}
+      Category: {props.medicalTreatment.category}
       <br />
-      Name:             {props.medicalTreatment.name}
+      Name: {props.medicalTreatment.name}
       <br />
-      Start Date:       {props.medicalTreatment.startDate}
+      Start Date: {props.medicalTreatment.startDate}
     </div>
   );
 }

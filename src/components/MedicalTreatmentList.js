@@ -22,14 +22,7 @@ function MedicalTreatmentList(props) {
     </li>
   ));
 
-  return (
-    <div>
-      {treatmentsJson}
-      <br />
-      <br />
-      {listMedicalTreats}
-    </div>
-  );
+  return <div>{listMedicalTreats}</div>;
 }
 
 export default MedicalTreatmentList;
